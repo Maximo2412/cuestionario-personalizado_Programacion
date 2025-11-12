@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego - Cuestionario OSI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cuestionario del Modelo OSI</h1>
+
+        <form id="quiz-form">
+            <!-- Pregunta 1 -->
+            <fieldset>
+                <legend>1. ¿Qué proporciona la capa de enlace de datos?</legend>
+                <label><input type="radio" name="p1" value="a"> Proporciona una comunicación confiable o no confiable
+                    entre dispositivos extremos</label><br>
+                <label><input type="radio" name="p1" value="b"> Restablece, gestiona y finaliza conexiones entre
+                    aplicaciones</label><br>
+                <label><input type="radio" name="p1" value="c"> Transmite bits sin procesar a través del medio de
+                    red</label><br>
+                <label><input type="radio" name="p1" value="d"> Gestiona la transferencia de datos entre nodos en la
+                    misma red</label>
+            </fieldset>
+
+            <!-- Pregunta 2 -->
+            <fieldset>
+                <legend>2. ¿Cuál de los siguientes protocolos es orientado a la conexión?</legend>
+                <label><input type="radio" name="p2" value="a"> UDP</label><br>
+                <label><input type="radio" name="p2" value="b"> TCP</label><br>
+                <label><input type="radio" name="p2" value="c"> ICMP</label><br>
+                <label><input type="radio" name="p2" value="d"> IP</label>
+            </fieldset>
+
+            <!-- Pregunta 3 -->
+            <fieldset>
+                <legend>3. ¿En qué capa del modelo OSI funciona el protocolo HTTP?</legend>
+                <label><input type="radio" name="p3" value="a"> Capa de Presentación</label><br>
+                <label><input type="radio" name="p3" value="b"> Capa de Sesión</label><br>
+                <label><input type="radio" name="p3" value="c"> Capa de Aplicación</label><br>
+                <label><input type="radio" name="p3" value="d"> Capa de Transporte</label>
+            </fieldset>
+
+            <!-- Pregunta 4 -->
+            <fieldset>
+                <legend>4. ¿Qué capa se encarga del direccionamiento lógico y enrutamiento?</legend>
+                <label><input type="radio" name="p4" value="a"> Capa de Red</label><br>
+                <label><input type="radio" name="p4" value="b"> Capa de Transporte</label><br>
+                <label><input type="radio" name="p4" value="c"> Capa de Enlace de Datos</label><br>
+                <label><input type="radio" name="p4" value="d"> Capa Física</label>
+            </fieldset>
+
+            <!-- Pregunta 5 -->
+            <fieldset>
+                <legend>5. ¿Cuál es la función principal de la capa física?</legend>
+                <label><input type="radio" name="p5" value="a"> Transmisión de bits a través del medio</label><br>
+                <label><input type="radio" name="p5" value="b"> Detección y corrección de errores</label><br>
+                <label><input type="radio" name="p5" value="c"> Control de flujo de datos</label><br>
+                <label><input type="radio" name="p5" value="d"> Compresión de datos</label>
+            </fieldset>
+
+            <!-- Pregunta 6 -->
+            <fieldset>
+                <legend>6. ¿Qué capa proporciona servicios directamente a las aplicaciones?</legend>
+                <label><input type="radio" name="p6" value="a"> Capa de Sesión</label><br>
+                <label><input type="radio" name="p6" value="b"> Capa de Presentación</label><br>
+                <label><input type="radio" name="p6" value="c"> Capa de Aplicación</label><br>
+                <label><input type="radio" name="p6" value="d"> Capa de Transporte</label>
+            </fieldset>
+
+            <!-- Pregunta 7 -->
+            <fieldset>
+                <legend>7. ¿Qué dispositivo funciona principalmente en la capa de red?</legend>
+                <label><input type="radio" name="p7" value="a"> Switch</label><br>
+                <label><input type="radio" name="p7" value="b"> Router</label><br>
+                <label><input type="radio" name="p7" value="c"> Hub</label><br>
+                <label><input type="radio" name="p7" value="d"> Bridge</label>
+            </fieldset>
+
+            <!-- Pregunta 8 -->
+            <fieldset>
+                <legend>8. ¿Qué capa se encarga de la conversión y encriptación de datos?</legend>
+                <label><input type="radio" name="p8" value="a"> Capa de Presentación</label><br>
+                <label><input type="radio" name="p8" value="b"> Capa de Aplicación</label><br>
+                <label><input type="radio" name="p8" value="c"> Capa de Sesión</label><br>
+                <label><input type="radio" name="p8" value="d"> Capa de Transporte</label>
+            </fieldset>
+
+            <!-- Pregunta 9 -->
+            <fieldset>
+                <legend>9. ¿Qué protocolo funciona en la capa de transporte?</legend>
+                <label><input type="radio" name="p9" value="a"> IP</label><br>
+                <label><input type="radio" name="p9" value="b"> HTTP</label><br>
+                <label><input type="radio" name="p9" value="c"> FTP</label><br>
+                <label><input type="radio" name="p9" value="d"> TCP</label>
+            </fieldset>
+
+            <!-- Pregunta 10 -->
+            <fieldset>
+                <legend>10. ¿Qué capa establece, gestiona y termina sesiones entre aplicaciones?</legend>
+                <label><input type="radio" name="p10" value="a"> Capa de Sesión</label><br>
+                <label><input type="radio" name="p10" value="b"> Capa de Presentación</label><br>
+                <label><input type="radio" name="p10" value="c"> Capa de Aplicación</label><br>
+                <label><input type="radio" name="p10" value="d"> Capa de Transporte</label>
+            </fieldset>
+
+            <div class="button-container">
+                <a href="Resultado.html">
+                    <button type="submit" id="submit-btn">Enviar Respuestas</button>
+                </a>
+            </div>
+
+        </form>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
