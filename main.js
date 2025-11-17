@@ -1,7 +1,7 @@
 const correctAnswers = {
     p1: 'd', // Gestiona la transferencia de datos entre nodos en la misma red
     p2: 'b', // TCP
-    p3: 'c', // Capa de Aplicación
+    p3: 'a', // Lo desampaqueta, lo direcciona, lo enruta y lo empaqueta
     p4: 'a', // Capa de Red
     p5: 'a', // Transmisión de bits a través del medio
     p6: 'c', // Capa de Aplicación
@@ -162,4 +162,5 @@ function displayResults(results, container) {
     `;
 
 }
+
 
