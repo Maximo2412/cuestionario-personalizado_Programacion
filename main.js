@@ -9,7 +9,7 @@ const correctAnswers = {
     p8: 'a', // Capa de Presentación
     p9: 'd', // TCP
     p10: 'a', // Capa de Sesión
-    p11: 'b'
+    p11: 'c' //
 };
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -162,3 +162,4 @@ function displayResults(results, container) {
     `;
 
 }
+
