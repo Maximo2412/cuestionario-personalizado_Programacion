@@ -8,7 +8,8 @@ const correctAnswers = {
     p7: 'b', // Router
     p8: 'a', // Capa de Presentación
     p9: 'd', // TCP
-    p10: 'a' // Capa de Sesión
+    p10: 'a', // Capa de Sesión
+    p11: 'b'
 };
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -159,4 +160,5 @@ function displayResults(results, container) {
             </div>
         </div>
     `;
+
 }
