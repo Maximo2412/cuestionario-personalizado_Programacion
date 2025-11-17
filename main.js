@@ -9,7 +9,7 @@ const correctAnswers = {
     p8: 'a', // Capa de Presentación
     p9: 'd', // TCP
     p10: 'a', // Capa de Sesión
-    p11: 'c' //
+    p11: 'c' //un protocolo de plataformas de intercambio de criptomonedas, que permiten comprar y vender activos digitales, o al servicio de correo electrónico empresarial de Microsoft, que ofrece gestión de correos, calendarios y contactos
 };
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -162,5 +162,6 @@ function displayResults(results, container) {
     `;
 
 }
+
 
 
